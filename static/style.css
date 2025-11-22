@@ -1,8 +1,9 @@
 body {
+    font-family: "Google Sans Flex", sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(252, 248, 238);
+    background-color: rgb(255, 255, 255);
     color: #000;
   }
 
@@ -24,12 +25,7 @@ body {
   }
 
   .title h3 {
-    
-  }
-
-  .large-icon {
-    font-size: 36px;
-    color: rgb(153, 153, 153);
+    /* Font is now handled by the body, removing specific override here */
   }
 
   .large-icon:hover {
@@ -43,6 +39,11 @@ body {
   ul.social-icons li {
     display: inline;
     padding-right: 5px;
+  }
+
+  .social-links-text {
+    font-size: x-large;
+    text-decoration: underline;
   }
 
   footer {
